@@ -7,8 +7,9 @@ import Solutions from "./pages/Solutions";
 function App() {
   return (
     <div className="font-poppins">
-      <Navbar />
+      <Navbar isHero={true} />
       <Hero />
+      <Navbar />
       <About />
       <Solutions />
     </div>
